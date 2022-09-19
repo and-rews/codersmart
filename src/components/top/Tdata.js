@@ -1,29 +1,29 @@
 const Tdata = [
   {
     cover: "./images/top/category-1.png",
-    para: "headphone",
+    para: "Men",
     desc: "3k orders this week",
   },
   {
     cover: "./images/top/category-2.png",
-    para: "watch",
+    para: "Women",
     desc: "4k orders this week",
   },
   {
     cover: "./images/top/category-3.png",
-    para: "sunglass",
+    para: "Sneakers",
     desc: "6k orders this week",
   },
   {
-    cover: "./images/top/category-2.png",
-    para: "watch",
+    cover: "./images/top/category-4.png",
+    para: "Bags",
     desc: "4k orders this week",
   },
   {
-    cover: "./images/top/category-3.png",
-    para: "sunglass",
+    cover: "./images/top/category-5.png",
+    para: "Jewelry",
     desc: "6k orders this week",
   },
-]
+];
 
-export default Tdata
+export default Tdata;

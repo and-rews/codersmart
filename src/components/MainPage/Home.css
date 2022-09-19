@@ -15,6 +15,11 @@
   border-radius: 50%;
   padding: 10px;
 }
+
+.homeSlide img {
+  height: 300px;
+  width: 300px;
+}
 .homeSlide ul li button {
   background: transparent !important;
   color: transparent !important;
@@ -26,4 +31,34 @@
   top: 2px;
   left: 0;
   margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .category {
+    display: none;
+  }
+
+  .homeSlide {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+  .homeSlide p,
+  .homeSlide h1,
+  .homeSlide ul {
+    display: none;
+  }
+  .homeSlide img {
+    position: relative;
+    top: -3rem;
+    right: 5rem;
+    width: 100%;
+    height: 100%;
+  }
+  .homeSlide button {
+    position: relative;
+    padding: 5px 40px;
+    bottom: -7rem;
+    left: 5rem;
+  }
 }

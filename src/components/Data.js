@@ -4,28 +4,28 @@ const Data = {
       id: 1,
       discount: 50,
       cover: "./images/flash/flash-1.png",
-      name: "Shoes",
-      price: 100,
+      name: "Hoodie",
+      price: 120,
     },
     {
       id: 2,
       discount: 40,
       cover: "./images/flash/flash-2.png",
-      name: "Watch",
-      price: 20,
+      name: "Nike Sneaker",
+      price: 220,
     },
     {
       id: 3,
       discount: 40,
       cover: "./images/flash/flash-3.png",
-      name: "Smart Mobile Black",
-      price: 200,
+      name: "Suit",
+      price: 350,
     },
     {
       id: 4,
       discount: 40,
       cover: "./images/flash/flash-4.png",
-      name: "Smart Watch Black",
+      name: "Clutch Purse",
       price: 50,
     },
     {
@@ -43,5 +43,5 @@ const Data = {
       price: 100,
     },
   ],
-}
-export default Data
+};
+export default Data;

@@ -247,3 +247,13 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
+
+.d-img {
+  height: 150px;
+}
+
+@media screen and (max-width: 700px) {
+  .d-img {
+    height: 300px;
+  }
+}
